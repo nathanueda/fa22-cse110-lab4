@@ -129,15 +129,7 @@ then we check the equality of 2 == 2 which of course is true. With ===, both
 types of the values must be of the same type.
 
 16. 
-for (let car in statistics) {
-    if (car[0] == 'r') {
-        console.log(car);
-    }
-    
-    if (statistics[car] % 2 != 0) {
-        console.log(statistics[car]);
-    }
-}
+In separate js file.
 
 17. The result is going to be the array [2,4,6]. The reason being is as follows.
 Since we know functions can be passed around as other variable types can be, 
@@ -149,18 +141,10 @@ number in our array effectively doubling it. This is why we start with the array
 [1,2,3] and end with the array [2,4,6].
 
 18. 
-function everySecond() {
-    let d = new Date();
-    let time = d.toLocaleDateString();
-    console.log(time);
-}
-
-// Infinite Loop
-setInterval(everySecond, 1000);
+In separate js file.
 
 19. 
 1
 4
 3
 2
-
