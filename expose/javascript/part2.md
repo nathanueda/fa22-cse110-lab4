@@ -128,8 +128,7 @@ equal the integer 2. On the other hand, 2 == '2' returns true since the string
 then we check the equality of 2 == 2 which of course is true. With ===, both 
 types of the values must be of the same type.
 
-16. 
-In separate js file.
+16. In separate js file.
 
 17. The result is going to be the array [2,4,6]. The reason being is as follows.
 Since we know functions can be passed around as other variable types can be, 
@@ -140,11 +139,11 @@ which is really just the function doSomething we passed as an argument, on each
 number in our array effectively doubling it. This is why we start with the array
 [1,2,3] and end with the array [2,4,6].
 
-18. 
-In separate js file.
+18. In separate js file.
 
 19. 
 1
 4
 3
 2
+
