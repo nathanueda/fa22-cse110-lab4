@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are of type string and therefore upon adding these two together, we are concatenating two strings together rather than summing to integers.
+2. To fix it, I appliex the unary plus operator in front of num1 and num2 to convert them to a number as this operator converts a string into a floating point number when placed before the string.
