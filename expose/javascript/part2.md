@@ -142,8 +142,8 @@ number in our array effectively doubling it. This is why we start with the array
 18. In separate js file.
 
 19. 
-1
-4
-3
-2
+1\
+4\
+3\
+2\
 
