@@ -60,65 +60,65 @@ declared within the same scope from where its value was returned. Since it had
 scope in every place it was used, we have no errors and return the proper value.
 Recall const variables have the same scope as let variables of block scope.
 12. 
-    A. student.name
-    B. student["Grad Year"]
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
+    A. student.name\
+    B. student["Grad Year"]\
+    C. student.greeting()\
+    D. student['Favorite Teacher'].name\
     E. student.courseload[0]
 
-13. Arithmetic 
-    A. '3' + 2 = Output: '32' 
+13. Arithmetic\ 
+    A. '3' + 2 = Output: '32'\
     This is because of javascript's automatic type conversion, which in this 
     case would convert 2 to '2', so the summed output is '32'. (adding an int
-    to a string)
-    B. '3' - 2 = Output: 1
+    to a string)\
+    B. '3' - 2 = Output: 1\
     This is because of javascript's automatic type conversion, which in this
     case would convert 5 to '5', so the subtracted output is 1. (subtracting an
-    int from a string)
-    C. 3 + null = Output: 3
+    int from a string)\
+    C. 3 + null = Output: 3\
     This is because of javascript's automatic type conversion, which in this 
     case would convert null to 0, so the summed output is 3. (adding null to an
-    int)
-    D. '3' + null = Output: '3null'
+    int)\
+    D. '3' + null = Output: '3null'\
     This is because of javascript's automatic type conversion, which in this 
     case would convert null to 'null', so the summed output is '3null'. (adding
-    null to a string)
-    E. true + 3 = Output: 4
+    null to a string)\
+    E. true + 3 = Output: 4\
     In this case, true is converted to a value of 1, so the summed output is 4.
-    (Adding a boolean expression to an integer (true = 1, false = 0))
-    F. false + null = Output: 0 
+    (Adding a boolean expression to an integer (true = 1, false = 0))\
+    F. false + null = Output: 0\
     In this case, we are summing a boolean to a null, therefore, the boolean is
     converted to its integer value, in this case 0, and null is converted to its
-    integer value of 0, therefore we get 0 as the result.
-    G. '3' + undefined = Output: '3undefined'
+    integer value of 0, therefore we get 0 as the result.\
+    G. '3' + undefined = Output: '3undefined'\
     In this case, undefined is converted to a string, therefore the sum is 
     '3undefined'. (undefined is converted to a string when it is added to a
-    string)
-    H. '3' - undefined = Output: NaN
+    string)\
+    H. '3' - undefined = Output: NaN\
     In this case, undefined is subtracted from a string, '3' and due to this
     is coverted to NaN. Subtracting from something that isn't a number with 
     something that isn't a number results in NaN (when subtracting undefined 
-    from a string it is converted to NaN).
+    from a string it is converted to NaN).\
 
-14. Comparison
-    A. '2' > 1 = Output: true
-    In this case, '2' is converted to 2, and since 2 > 1, the result is true.
-    B. '2' < '12' = Output: false
+14. Comparison\
+    A. '2' > 1 = Output: true\
+    In this case, '2' is converted to 2, and since 2 > 1, the result is true.\
+    B. '2' < '12' = Output: false\
     In this case, we compare '2' to '1' first, and since '2' > '1', this returns
-    false.
-    C. 2 == '2' = Output: true
+    false.\
+    C. 2 == '2' = Output: true\
     In this case, '2' is coverted to 2 and 2 == 2, therefore the statement 
-    returns true.
-    D. 2 === '2' = Output: false
+    returns true.\
+    D. 2 === '2' = Output: false\
     Since we are using the strict equlity operator (equality without type 
-    conversion) false is the result since 2 != '2'.
-    E. true == 2 = Output: false
+    conversion) false is the result since 2 != '2'.\
+    E. true == 2 = Output: false\
     In this case, true is converted to 1, and since 1 != 2, this statement 
-    correctly returns false.
-    F. true === Boolean(2) = Output: true 
+    correctly returns false.\
+    F. true === Boolean(2) = Output: true\
     Since Boolean(2) returns true, these 2 values are equal even without having
     to type convert. We know Boolean(2) returns true since it is not one of the
-    few parameters that would return false (i.e. 0, -0, false, NaN, etc.).
+    few parameters that would return false (i.e. 0, -0, false, NaN, etc.).\
 
 15. The '==' we have most commonly seen is used to check for equality that 
 allows for type conversion, while '===' checks for equality without type 
@@ -145,5 +145,5 @@ number in our array effectively doubling it. This is why we start with the array
 1\
 4\
 3\
-2\
+2
 
