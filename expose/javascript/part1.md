@@ -1,7 +1,7 @@
 Part 1
-1. 20
-2. 20
-3. 20
+1. values added: 20
+2. final result:  20
+3. values added: 20
 4. Line 13 tries to use a variable outside of the block scope of the variable's
 declaration. Therefore, an error is returned since it is attempted to be used 
 outside of its scope.
